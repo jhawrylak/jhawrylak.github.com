@@ -5,6 +5,7 @@
 	top:2px;
 	position:relative;
 	display:inline-block;
+	content:"";
 }
 
 #contact.compact:before {
@@ -20,9 +21,9 @@
 }
 
 #contact {
-	width:auto;
+	width:400px;
 	padding-left:20px;
-	border:6px dashed rgb(17,62,145);
+	border:3px dashed rgb(17,62,145);
 	background-color: rgb(97,133,201);
 }
 
