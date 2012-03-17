@@ -1,11 +1,13 @@
 #contact:before {
 	width:0px;
 	height:0px;
+	left:-10px;
+	top:2px;
+	position:relative;
+	display:inline-block;
 }
 
 #contact.compact:before {
-	position:relative;
-	left:-10px;
 	border-top:10px solid transparent;
 	border-bottom:10px solid transparent;
 	border-left:10px solid black;
@@ -19,7 +21,15 @@
 
 #contact {
 	width:auto;
-	padding-left:10px;
+	padding-left:20px;
 	border:6px dashed rgb(17,62,145);
 	background-color: rgb(97,133,201);
+}
+
+#contact>div {
+	margin-left:10px;
+}
+
+#contact.compact div{
+	display:none;
 }
