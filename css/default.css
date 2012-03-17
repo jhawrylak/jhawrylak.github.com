@@ -1,16 +1,31 @@
+/*layout*/
 body {
-	background-color: B2A6E3;
+	background-color: #B2A6E3;
 }
 
 #content {
 	background-color:#fff;
 	width:900px;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
 }
 
 footer {
 	background-color:#fff;
+	padding:20px;
 	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
 }
+
+/*
+Contact
+*/
 
 #contact:before {
 	width:0px;
@@ -35,10 +50,11 @@ footer {
 }
 
 #contact {
-	width:400px;
+	width:200px;
 	padding-left:20px;
 	border:3px dashed #3613BF;
-	background-color: #8171BF;
+	background-color: #B2A6E3;
+	border-radius:5px;
 }
 
 #contact>div {
@@ -47,4 +63,10 @@ footer {
 
 #contact.compact div{
 	display:none;
+}
+
+#contact a:link, #contact a:visited, #contact a:hover, #contact a:hover {
+	text-decoration:none;
+	font-weight:normal;
+	color:#000;
 }
