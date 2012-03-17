@@ -1,12 +1,12 @@
 $(document).ready(function()
 {
 	$('#contact').bind('click', function(event) {
-		if(this.hasClass('compact'))
+		if($('#contact').hasClass('compact'))
 		{
-			this.removeClass('compact').addClass('expanded');
+			$('#contact').removeClass('compact').addClass('expanded');
 		} else
 		{
-			this.removeClass('expanded').addClass('compact');
+			$('#contact').removeClass('expanded').addClass('compact');
 		}
 	});
 });
