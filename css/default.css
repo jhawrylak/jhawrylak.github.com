@@ -4,6 +4,8 @@
 }
 
 #contact.compact:before {
+	position:relative;
+	left:-10px;
 	border-top:10px solid transparent;
 	border-bottom:10px solid transparent;
 	border-left:10px solid black;
@@ -16,6 +18,8 @@
 }
 
 #contact {
-	border:2px dotted rgb(17,62,145);
-	background-color: rgb(54,102,191);
+	width:auto;
+	padding-left:10px;
+	border:6px dashed rgb(17,62,145);
+	background-color: rgb(97,133,201);
 }
