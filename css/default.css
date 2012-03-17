@@ -1,0 +1,21 @@
+#contact:before {
+	width:0px;
+	height:0px;
+}
+
+#contact.compact:before {
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:10px solid black;
+}
+
+#contact.expanded:before {
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-top:10px solid black;
+}
+
+#contact::outside {
+	border:2px dotted rgb(17,62,145);
+	background-color: rgb(54,102,191);
+}
