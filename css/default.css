@@ -15,7 +15,7 @@
 	border-top:10px solid black;
 }
 
-#contact::outside {
+#contact {
 	border:2px dotted rgb(17,62,145);
 	background-color: rgb(54,102,191);
 }
